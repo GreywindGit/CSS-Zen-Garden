@@ -1,1 +1,1 @@
-# Zen-Garden-CSS-practice
+# CSS practice assignment using CSS Zen Garden's html
