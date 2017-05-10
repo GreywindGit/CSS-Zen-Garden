@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./img/background_trans2.jpg);
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    right: 50%;
+}
+
+#zen-intro, #zen-supporting {
+    width: 60%;
+    margin: 20px 10px;
+    line-height: 1.5em;
+}
+
+#zen-intro, #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements, .sidebar, footer {
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: -10px 10px 15px #C18A47;
+    background-repeat: no-repeat;
+}
+
+#zen-intro {
+    padding: 50px;
+    background-color: #64DB33;
+    background-image: url(./img/red_pushpin_small.png), url(./img/green_pushpin_small.png);
+    background-position: top left, top right;
+    font-family: 'Gerritszoon', serif;
+    font-size: 1.1em;
+}
+
+#zen-explanation {
+    left: 30px;
+    top: 310px;
+    width: 20%;
+    padding: 60px 80px;
+    background-color: #FF3240;
+    background-image: url(./img/blue_pushpin_small.png);
+    background-size: 15%;
+    background-position: top center;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 1.4em;
+}
+
+#zen-explanation h3 {
+    font-weight: 600;
+}
+
+#zen-participation {
+    left: 650px;
+    top: 320px;
+    width: 20%;
+    padding: 70px 90px;
+    background-color: #F3E800;
+    background-image: url(./img/purple_pushpin_small.png);
+    background-position: top right;
+    background-size: 15%;
+    transform: rotate(-10deg);
+    font-family: 'Indie Flower', sans-serif;
+}
+
+#zen-participation a {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#zen-benefits{
+    left: 700px;
+    top: 1100px;
+    width: 20%;
+    padding: 40px 50px;
+    background-color: #12AEA1;
+    background-image: url(./img/red_pushpin_small.png);
+    background-position-x: 30%;
+    background-position-y: 5%;
+    transform: rotate(2deg);
+    font-family: 'Traveling Typewriter', sans-serif;
+}
+
+#zen-requirements {
+    left: 100px;
+    top: 870px;
+    width: 20%;
+    padding: 50px 70px;
+    margin-bottom: 50px;
+    background-color: #FF7BC0;
+    background-image: url(./img/green_pushpin_small.png), url(./img/blue_pushpin_small.png);
+    background-position: top right, bottom left;
+    background-size: 15%;
+    font-family: 'Telidon Regular', sans-serif;
+}
+
+#zen-requirements h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#zen-requirements p {
+    font-weight: bolder;
+}
+
+.sidebar {
+    top: 300px;
+    left: 70%;
+    width: 25%;
+    line-height: 2em;
+    padding: 20px;
+    background-color: #E3DAC9;
+    background-image: url(./img/red_pushpin_small.png);
+    background-position-x: 10%;
+    text-align: center;
+    transform: rotate(7deg);
+    font-family: 'Rock Salt', sans-serif;
+}
+
+
+.sidebar li {
+    list-style: none;
+}
+
+.sidebar li:nth-child(2n+1):after {
+    content: url(./img/check_mark.png);
+}
+
+.sidebar li:nth-child(2n):after {
+    content: url(./img/x_mark.png);
+}
+
+footer {
+    text-align: center;
+    background-color: #E3DAC9;
+    background-image: url(./img/green_pushpin_small.png), url(./img/purple_pushpin_small.png);
+    background-position: center left, center right;
+    background-size: 15%;
+    padding: 30px 70px;
+    top: 1450px;
+    left: 680px;
+    font-family: 'Friends', sans-serif;
+    font-size: 1.2em;
+}
+
+footer>a {
+    margin-right: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover {
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Rock Salt';
+    src: url(./font/RockSalt.ttf);
+}
+
+@font-face {
+    font-family: 'Traveling Typewriter';
+    src: url(./font/TravelingTypewriter.ttf);
+}
+
+@font-face {
+    font-family: 'Gerritszoon';
+    src: url(./font/Gerritszoon.ttf);
+}
+
+@font-face {
+    font-family: 'Indie Flower';
+    src: url(./font/IndieFlower.ttf);
+}
+
+@font-face {
+    font-family: 'Friends';
+    src: url(./font/Friends.ttf);
+}
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url(./font/DancingScript.ttf);
+}
+
+@font-face {
+    font-family: 'Telidon Regular';
+    src: url(./font/TelidonRegular.ttf);
+}
