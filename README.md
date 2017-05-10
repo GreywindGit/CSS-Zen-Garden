@@ -2,3 +2,4 @@
 
 Codecool 6th SI-week material.
 HTML resource: http://www.csszengarden.com/
+Best viewed in Chrome, full HD.
